@@ -16,9 +16,9 @@ Jupyter notebook has become bloated over time, requiring thousands of pip packag
 
 ### Screenshots:
 
-![Screenshot 1](link_to_screenshot_1)
-![Screenshot 2](link_to_screenshot_2)
-![Screenshot 3](link_to_screenshot_3)
+![Screenshot 1](https://github.com/msrsaditya/Mars-Notebook/blob/main/images/1%20code%20sample.png)
+![Screenshot 2](https://github.com/msrsaditya/Mars-Notebook/blob/main/images/2%20codes%20input.png)
+![Screenshot 3](https://github.com/msrsaditya/Mars-Notebook/blob/main/images/4%20codes.png)
 
 ### Usage:
 1. Clone the repository:
