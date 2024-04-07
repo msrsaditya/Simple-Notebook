@@ -16,6 +16,10 @@ Jupyter notebook has become bloated over time, requiring thousands of pip packag
 
 ### Screenshots:
 
+![Screenshot 1](link_to_screenshot_1)
+![Screenshot 2](link_to_screenshot_2)
+![Screenshot 3](link_to_screenshot_3)
+
 ### Usage:
 1. Clone the repository:
 ```
