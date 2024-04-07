@@ -8,9 +8,9 @@ Jupyter notebook has become bloated over time, requiring thousands of pip packag
 
 ### Features:
 - Minimalistic design
-- Lightweight and efficient
+- Lightweight and efficient (literally vanilla JS)
 - Requires only one dependency: Flask
-- Basic functionalities: adding cells, removing cells, executing code
+- Basic functionalities: adding cells, removing cells, executing code, that's it!
 - Output displayed as alert messages for a cleaner interface
 - Utilizes "Jet Brains Mono" font for better code visibility and readability
 
@@ -37,11 +37,11 @@ pip3 install flask
 ```
 python3 app.py
 ```
-5. Open your web browser and go to:
+5. Open your web browser and go to localhost with a port number (in this case 5000):
 ```
 http://localhost:5000
 ```
 
 ### Notes:
-- Enjoy coding with Mars-Notebook and experience a minimalist approach to notebook-style coding!
-- For any issues or suggestions, feel free to open an issue on the GitHub repository.
+- Happy coding with Mars-Notebook!
+- For any issues or suggestions, feel free to open an issue on the GitHub repository, I literally made this overnight Lol!
