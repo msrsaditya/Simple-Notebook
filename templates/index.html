@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="codebox-container">
+        <div class="codebox">
+            <textarea class="inputCodeArea" placeholder="Code Here..." rows="1"></textarea>
+        </div>
+    </div>
+    <button id="addCodeBox">+</button>
+    <button id="removeCodeBox">-</button>
+    <button id="runCode">Run</button>
+    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        document.getElementById('codeForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const form = event.target;
+            const code = form.elements['code'].value;
+            fetch('/execute', {
+                method: 'POST',
+                body: new URLSearchParams({ code }),
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            })
+            .then(response => response.text())
+            .then(output => {
+                alert(output);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again.');
+            });
+        });
+    </script>
+</body>
+</html>
