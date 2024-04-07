@@ -1,7 +1,6 @@
 # Mars-Notebook
-Cuz Mars is always better than Jupyter
+"Cuz Mars is always better than Jupyter"
 
-### About:
 Mars-Notebook is a minimal drop-in replacement for Jupyter notebook. It's designed to provide a lightweight and efficient alternative to Jupyter, offering only basic functionalities like adding cells, removing cells, and executing code. Unlike Jupyter notebook, Mars-Notebook is simple, lightweight, and highly reliable. It only requires one dependency, "flask", making it easy to set up and use.
 
 ### Why Mars-Notebook?
@@ -42,5 +41,3 @@ http://localhost:5000
 ### Notes:
 - Enjoy coding with Mars-Notebook and experience a minimalist approach to notebook-style coding!
 - For any issues or suggestions, feel free to open an issue on the GitHub repository.
-
-```
