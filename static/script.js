@@ -88,7 +88,7 @@ document.getElementById('runCode').addEventListener('click', function() {
 function executeCode(code, userInput, inputPrompt) {
     fetch('/execute', {
         method: 'POST',
-        body: new URLSearchParams({ code, userInput }), // Include userInput in the request body
+        body: new URLSearchParams({ code, userInput }),
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         }
