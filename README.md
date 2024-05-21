@@ -1,10 +1,9 @@
-# Mars-Notebook
-"Cuz Mars is always better than Jupyter"
+# Simple-Notebook
 
-Mars-Notebook is a minimal drop-in replacement for Jupyter notebook. It's designed to provide a lightweight and efficient alternative to Jupyter, offering only basic functionalities like adding cells, removing cells, and executing code. Unlike Jupyter notebook, Mars-Notebook is simple, lightweight, and highly reliable. It only requires one dependency, "flask", making it easy to set up and use.
+Simple-Notebook is a minimal replacement for Jupyter notebook. It's designed to provide a lightweight and efficient alternative to Jupyter, offering only basic functionalities like adding new cells, removing existing cells, and executing code. Unlike Jupyter notebook which has like a million dependencies, Mars-Notebook only requires one dependency, "flask", making it easy to set up and use.
 
 ### Why Mars-Notebook?
-Jupyter notebook has become bloated over time, requiring thousands of pip packages and often breaking with new versions. Mars-Notebook solves this problem by offering a streamlined experience with minimal dependencies. The output appears in the form of alert messages, reducing clutter and making the interface cleaner. Additionally, Mars-Notebook uses the "Jet Brains Mono" font for better code visibility and readability, supported by thousands of developers worldwide. Its minimalist design ensures that it just barely works, which is considered a feature rather than a bug. It's the antithesis of Jupyter notebook, offering a simpler, more enjoyable coding experience.
+Jupyter notebook has become bloated over time, requiring thousands of pip packages and often breaking with new versions. Mars-Notebook solves this problem by offering a streamlined experience with minimal dependencies. The output appears in the form of alert messages, reducing clutter and making the interface cleaner. Additionally, Mars-Notebook uses the "Jet Brains Mono" font for better code visibility and readability, supported by thousands of developers worldwide. Its minimalist design ensures that it just barely works, which is considered a feature rather than a bug. It's the antithesis of bloated software like Jupyter notebook, offering a simpler, more enjoyable coding experience.
 
 ### Features:
 - Minimalistic design
@@ -43,5 +42,5 @@ http://localhost:5000
 ```
 
 ### Notes:
-- Happy coding with Mars-Notebook!
-- For any issues or suggestions, feel free to open an issue on the GitHub repository, I literally made this overnight Lol!
+- Happy coding with Simple-Notebook!
+- For any issues or suggestions, feel free to open an issue here!
