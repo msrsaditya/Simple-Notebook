@@ -22,11 +22,11 @@ Jupyter notebook has become bloated over time, requiring thousands of pip packag
 ### Usage:
 1. Clone the repository:
 ```
-git clone https://github.com/msrsaditya/Mars-Notebook.git
+git clone https://github.com/msrsaditya/Simple-Notebook.git
 ```
 2. Navigate to the project directory:
 ```
-cd Mars-Notebook
+cd Simple-Notebook
 ```
 3. Install dependencies:
 ```
